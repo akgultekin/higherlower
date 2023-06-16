@@ -1,0 +1,257 @@
+body {
+    background-color: #b8b8b8;
+    font-family: "Calibri Light";
+}
+
+#wrapper {
+    width: 1700px;
+    padding: 10px;
+    margin: auto;
+}
+
+header {
+    background-color: #b8b8b8;
+    height: 350px;
+    user-select: none;
+}
+
+.headerText {
+    text-align: center;
+    line-height: 400px;
+    font-size: 90pt;
+    color: white;
+    cursor: default;
+}
+
+.leftcontainer {
+    border-radius: 30px;
+    border: 4px solid rgb(148, 0, 0);
+    background-color: rgb(255, 66, 66);
+    width: 820px;
+    height: 250px;
+    user-select: none;
+    float: left;
+}
+
+.rightcontainer {
+    border-radius: 30px;
+    border: 4px solid rgb(0, 60, 255);
+    background-color: rgb(0, 153, 255);
+    width: 820px;
+    height: 250px;
+    user-select: none;
+    float: right;
+    display: block;
+}
+
+img {
+    width: 170px;
+}
+
+.dice1, .dice2, .dice3, .dice4, .dice5, .dice6 {
+    margin: 45px 0px 0px 75px;
+    float: left;
+}
+
+.empty {
+    width: 1700px;
+    height: 200px;
+    float: left;
+}
+
+.leftbuttoncontainer {
+    width: 850px;
+    height: 280px;
+    float: left;
+}
+
+.scoreboard {
+    border-radius: 30px;
+    background-color: #9e9e9e;
+    width: 350px;
+    height: 280px;
+    float: left;
+    cursor: default;
+    user-select: none;
+}
+
+.rightbuttoncontainer {
+    width: 500px;
+    height: 280px;
+    float: right;
+}
+
+footer {
+    clear: both;
+    width: 1800px;
+}
+
+/*-----------------------------------------------------------------*/
+
+.hogerButton {
+    border-radius: 30px;
+    border: 3px solid #8f8171;
+    background-color: #b6a99a;
+    color: white;
+    font-size: 30pt;
+    width: 450px;
+    height: 120px;
+    float: left;
+}
+
+.lagerButton {
+    border-radius: 30px;
+    border: 3px solid #8f8171;
+    background-color: #b6a99a;
+    color: white;
+    font-size: 30pt;
+    width: 450px;
+    height: 120px;
+    margin: 30px 0px;
+    float: left;
+}
+
+.gooiButton {
+    border-radius: 30px;
+    border: 3px solid #8f8171;
+    background-color: #b6a99a;
+    color: white;
+    font-size: 30pt;
+    width: 300px;
+    height: 270px;
+    margin: 0px 40px;
+}
+
+.startGameButton {
+    border-radius: 300px;
+    border: 3px solid #8f8171;
+    background-color: #b6a99a;
+    color: white;
+    font-size: 30pt;
+    width: 280px;
+    height: 270px;
+    margin: 0px 70px;
+    float: right;
+}
+
+/*-----------------------------------------------------------------*/
+
+.hogerButton:hover {
+    background-color: #9e9386;
+}
+
+.lagerButton:hover {
+    background-color: #9e9386;
+}
+
+.gooiButton:hover {
+    background-color: #9e9386;
+}
+
+.startGameButton:hover {
+    background-color: #9e9386;
+}
+
+/*-----------------------------------------------------------------*/
+
+#scoreboardTitle {
+    color: white;
+    text-align: center;
+    line-height: 20px;
+    font-size: 30pt;
+    cursor: default;
+}
+
+#scoreboardLine {
+    border: 1px solid #929292;
+    width: 250px;
+}
+
+#playerName {
+    color: white;
+    font-size: 30pt;
+    line-height: 10px;
+    margin: 0px 60px;
+    float: left;
+}
+
+#playerScore {
+    color: white;
+    line-height: 10px;
+    font-size: 30pt;
+}
+
+#computerName {
+    color: white;
+    font-size: 30pt;
+    line-height: 30px;
+    margin: 0px 60px;
+    float: left;
+}
+
+#computerScore {
+    color: white;
+    line-height: 30px;
+    font-size: 30pt;
+}
+
+#startGameText {
+    color:  white;
+    text-align: center;
+    line-height: 100px;
+    font-size: 50pt;
+    display: none;
+    cursor: default;
+    user-select: none;
+}
+
+#youWonText {
+    color:  white;
+    text-align: center;
+    line-height: 100px;
+    font-size: 50pt;
+    display: none;
+    cursor: default;
+    user-select: none;
+}
+
+#youLostText {
+    color:  white;
+    text-align: center;
+    line-height: 100px;
+    font-size: 50pt;
+    display: none;
+    cursor: default;
+    user-select: none;
+}
+
+#computerWonText {
+    color:  white;
+    text-align: center;
+    line-height: 100px;
+    font-size: 50pt;
+    display: none;
+    cursor: default;
+    user-select: none;
+}
+
+#computerLostText {
+    color:  white;
+    text-align: center;
+    line-height: 100px;
+    font-size: 50pt;
+    display: none;
+    cursor: default;
+    user-select: none;
+}
+
+#drawText {
+    color:  white;
+    text-align: center;
+    line-height: 100px;
+    font-size: 50pt;
+    display: none;
+    cursor: default;
+    user-select: none;
+}
+

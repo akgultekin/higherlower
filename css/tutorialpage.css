@@ -1,0 +1,118 @@
+body {
+    background-color: #9b9a9a;
+    font-family: "Calibri Light";
+}
+
+#wrapper {
+    width: 1700px;
+    padding: 10px;
+    margin: auto;
+}
+
+img {
+    border-radius: 30px;
+    border: 6px solid white;
+    width: 1690px;
+    height: 900px;
+    margin: 70px 0px;
+}
+
+/*-----------------------------------------------------------------*/
+
+#nextButton1 {
+    border-radius: 30px;
+    border: 3px solid #8f8171;
+    background-color: #b6a99a;
+    color: white;
+    font-size: 30pt;
+    text-decoration: none;
+    width: 280px;
+    height: 100px;
+    margin: 30px 710px;
+}
+
+#nextButton2 {
+    border-radius: 30px;
+    border: 3px solid #8f8171;
+    background-color: #b6a99a;
+    color: white;
+    font-size: 30pt;
+    text-decoration: none;
+    width: 280px;
+    height: 100px;
+    margin: 30px 710px;
+}
+
+#nextButton3 {
+    border-radius: 30px;
+    border: 3px solid #8f8171;
+    background-color: #b6a99a;
+    color: white;
+    font-size: 30pt;
+    text-decoration: none;
+    width: 280px;
+    height: 100px;
+    margin: 30px 710px;
+}
+
+#nextButton4 {
+    border-radius: 30px;
+    border: 3px solid #8f8171;
+    background-color: #b6a99a;
+    color: white;
+    font-size: 30pt;
+    text-decoration: none;
+    width: 280px;
+    height: 100px;
+    margin: 30px 710px;
+}
+
+#nextButton5 {
+    border-radius: 30px;
+    border: 3px solid #8f8171;
+    background-color: #b6a99a;
+    color: white;
+    font-size: 30pt;
+    text-decoration: none;
+    width: 280px;
+    height: 100px;
+    margin: 30px 710px;
+}
+
+#playButton {
+    border-radius: 30px;
+    border: 3px solid #8f8171;
+    background-color: #b6a99a;
+    color: white;
+    font-size: 30pt;
+    text-decoration: none;
+    width: 280px;
+    height: 100px;
+    margin: 30px 710px;
+}
+
+/*-----------------------------------------------------------------*/
+
+#nextButton1:hover {
+    background-color: #9e9386;
+}
+
+#nextButton2:hover {
+    background-color: #9e9386;
+}
+
+#nextButton3:hover {
+    background-color: #9e9386;
+}
+
+#nextButton4:hover {
+    background-color: #9e9386;
+}
+
+#nextButton5:hover {
+    background-color: #9e9386;
+}
+
+#playButton:hover {
+    background-color: #9e9386;
+}

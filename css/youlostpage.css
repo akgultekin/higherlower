@@ -1,0 +1,41 @@
+body {
+    background-color: #9b9a9a;
+    font-family: "Calibri Light";
+}
+
+#wrapper {
+    width: 1700px;
+    padding: 10px;
+    margin: auto;
+}
+
+header {
+    background-color: #9b9a9a;
+    height: 350px;
+}
+
+.headerText {
+    text-align: center;
+    line-height: 1000px;
+    font-size: 90pt;
+    color: rgb(255, 0, 0);
+    cursor: default;
+    user-select: none;
+}
+
+.playAgainButton {
+    border-radius: 30px;
+    border: 3px solid #8f8171;
+    background-color: #b6a99a;
+    color: white;
+    font-size: 25pt;
+    width: 280px;
+    height: 100px;
+    margin: 350px 710px;
+}
+
+/*-----------------------------------------------------------------*/
+
+.playAgainButton:hover {
+    background-color: #9e9386;
+}

@@ -1,0 +1,141 @@
+body {
+    background-color: #9b9a9a;
+    font-family: "Calibri Light";
+}
+
+#wrapper {
+    width: 1700px;
+    padding: 10px;
+    margin: auto;
+}
+
+header {
+    background-color: #9b9a9a;
+    height: 300px;
+}
+
+.headerText {
+    text-align: center;
+    line-height: 350px;
+    font-size: 90pt;
+    color: white;
+    cursor: default;
+    user-select: none;
+}
+
+h1 {
+    color: white;
+    font-size: 40pt;
+    font-weight: normal;
+}
+
+article {
+    border-radius: 30px;
+    text-align: center;
+    background-color: #858585;
+    width: 680px;
+    height: 400px;
+    padding: 40px;
+    cursor: default;
+    user-select: none;
+    float: left;
+}
+
+.articleLine {
+    border: 1px solid #999999;
+    width: 500px;
+}
+
+.articleText {
+    color: white;
+    font-size: 30pt
+}
+
+img {
+    border-radius: 30px;
+    border: 6px solid white;
+    width: 850px;
+    height: 470px;
+    float: right;
+}
+
+ol {
+    color: white;
+    font-size: 30pt;
+}
+
+footer {
+    clear: both;
+    border-radius: 30px;
+    text-align: center;
+    background-color: #858585;
+    width: 680px;
+    height: 350px;
+    margin: 30px 0px;
+    padding: 40px;
+    cursor: default;
+    user-select: none;
+    float: left;
+}
+
+form {
+    border-radius: 30px;
+    border: 6px solid rgb(0, 160, 0);
+    background-color: #00ec20;
+    text-align: center;
+    width: 860px;
+    height: 420px;
+    margin: 30px 0px;
+    user-select: none;
+    float: right;
+}
+
+.formLine {
+    border: 1px solid #53ff6a;
+    width: 500px;
+}
+
+.loginText {
+    font-size: 40pt;
+}
+
+label {
+    color: white;
+    font-size: 35pt;
+    margin: 40px 75px;
+    float: left;
+}
+
+input[type=text] {
+    border-radius: 30px;
+    text-align: center;
+    font-size: 25pt;
+    width: 360px;
+    height: 100px;
+    margin: 20px 50px;
+}
+
+input[type=date] {
+    border-radius: 30px;
+    width: 300px;
+    height: 100px;
+}
+
+
+.logInButton {
+    border-radius: 30px;
+    border: 3px solid #8f8171;
+    background-color: #b6a99a;
+    color: white;
+    font-size: 30pt;
+    width: 300px;
+    height: 100px;
+    margin: 10px 250px;
+    float: left;
+}
+
+/*-----------------------------------------------------------------*/
+
+.logInButton:hover {
+    background-color: #9e9386;
+}
