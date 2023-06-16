@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Hoger Lager </title>
+    <link rel="stylesheet" href="css/higherlower.css">
+</head>
+<body>
+    <div id="wrapper">
+
+        <header class="headerText"> Hoger Lager </header>
+
+        <div class="leftcontainer"> 
+
+            <img src="img/dice.png" class="dice1">
+            <img src="img/dice.png" class="dice2">
+            <img src="img/dice.png" class="dice3">
+
+        </div>
+
+        <div class="rightcontainer"> 
+
+            <img src="img/dice.png" class="dice4">
+            <img src="img/dice.png" class="dice5">
+            <img src="img/dice.png" class="dice6">
+
+        </div>
+
+        <div class="empty"> 
+
+            <p id="startGameText">  Spel is gestart! </p>
+            <p id="youWonText">  Je hebt gewonnen! </p>
+            <p id="youLostText">  Je hebt verloren! </p>
+            <p id="computerWonText"> Computer heeft gewonnen! </p>
+            <p id="computerLostText"> Computer heeft verloren! </p>
+            <p id="drawText">  Het is een gelijkspel! </p>
+
+        </div>
+
+        <div class="leftbuttoncontainer">
+            
+            <button class="hogerButton"> Hoger </button>
+            <button class="lagerButton"> Lager </button>
+            <button class="gooiButton"> Gooi dobbelsteen </button>
+
+        </div>
+
+        <div class="scoreboard">
+
+            <p id="scoreboardTitle"> Scoreboard </p>
+            
+            <hr id="scoreboardLine">
+
+            <div>
+
+                <p id="playerName"> </p>
+                <p id="playerScore"> </p> 
+
+            </div>
+
+            <div>
+
+                <p id="computerName"> CPU: </p>
+                <p id="computerScore">  </p>
+
+            </div>
+
+        </div>
+
+        <div class="rightbuttoncontainer"> 
+
+            <button class="startGameButton"> Start Spel </button>
+
+        </div>
+
+        <footer> </footer>
+
+    </div>
+
+    <script type="application/javascript" src="js/index.js"></script>
+</body>
+</html>
